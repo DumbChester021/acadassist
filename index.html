@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+            <div class="container">
+                <img class="navbar-brand logo-img" src="assets/logo.png">
+                <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+            
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Academic Assist</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Pricing</a>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </nav>
+        <!-- ShowCase-->
+        <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+            <div class="container">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <h1>Academic Assist <br>
+                            <span class="text-warning">
+                                Fast, Reliable and Cheap.
+                            </span>
+                        </h1>
+                        <p class="lead my-4">
+                            Helping students, One assignment at a time.
+                        </p>
+                        <button class="btn btn-primary btn-lg">Request Assistance</button>
+                    </div>
+                    <img class="img-fluid w-50 h-50 d-none d-sm-block" src="assets/showcase.png">
+                </div>
+            </div>
+        </section>
+        <!--Search Section
+        -->
+        <section class="bg-primary text-light p-5">
+            <div class="container">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mb-md-0">Want to check your Request Status?</h3>
+                    <div class="input-group search-input">
+                        <input type="text" class="form-control" placeholder="Enter Reference Number"">
+                        <button class="btn btn-dark btn-lg" type="button">Check</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+    <!--Request Form-->
+        <section class="text-dark p-5 text-left">
+        <div class="container">
+            <h1 class="text-center">Academic Assist Request Form</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name, your nickname would do">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Enter Subject, e.g. Trigonometry, History etc..">
+                </div>
+                <div class="form-group">
+                    <label for="topic">Topic Name</label>
+                    <input type="text" class="form-control" id="topic" placeholder="Enter topic name">
+                </div>
+                <div class="form-group">
+                    <label for="description">Detailed Description and Notes</label>
+                    <textarea class="form-control" id="description" rows="3" 
+                    placeholder="Please write a detailed summary of your request, Put the Deadline, your budget and other Notes"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="file">Upload Photo or Files (Please include given solutions/examples if Math related subject)</label>
+                    <input type="file" class="form-control-file" id="file">
+                </div>
+                <br><p class="text-green"><strong>Make sure to read our Terms and Conditions and Privacy Policy before Agreeing</strong></p>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="agreement">
+                    <label class="form-check-label" for="agreement">I agree to Academic Assist Privacy Policy</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="agreement">
+                    <label class="form-check-label" for="agreement">I agree to Academic Assist Terms and Conditions</label>
+                </div><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!--Contact-->
+    <section class="p-5 text-light bg-dark">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Us</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item bg-dark text-light">
+                            <span class="fw-bold">Main Location: </span> Padilla, Antipolo City, Rizal, 1970
+                        </li>
+                        <li class="list-group-item bg-dark text-light">
+                            <span class="fw-bold">Phone Number: </span>(+63)9610646277
+                        </li>
+                        <li class="list-group-item bg-dark text-light">
+                            <span class="fw-bold">Email Address: </span>academicassistofficial@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="bg-dark mt-auto">
+        <div class="container">
+            <p class="text-center text-white lead">Copyright &copy: 2023 Breaksoft Inc. | <a href="#">Privacy Policy</a> | <a href="#">About us</a></p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
