@@ -3,3 +3,11 @@
         width: 50%;;
     }
 }
+
+#termsContent {
+    white-space : pre-wrap;
+}
+
+#privacyContent {
+    white-space : pre-wrap;
+}
